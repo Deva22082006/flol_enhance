@@ -32,7 +32,7 @@ from torch.utils.data import DataLoader
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from models.flol_enhanced import FLOL_CA
 from models.losses        import FLOLLoss
-from data.dataset         import LOLDataset, SyntheticLOLDataset, build_dataloaders
+from models.dataset import LOLDataset, SyntheticLOLDataset, build_dataloaders
 
 
 # ─────────────────────────────────────────────
